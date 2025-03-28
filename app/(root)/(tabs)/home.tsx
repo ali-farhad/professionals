@@ -1,5 +1,6 @@
 import { SignedIn, SignedOut, useUser, useClerk } from "@clerk/clerk-expo";
 import { Link, router } from "expo-router";
+import { useState } from "react";
 import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -8,14 +9,17 @@ import CustomButton from "@/components/CustomButton";
 export default function Page() {
   const { user } = useUser();
   const { signOut } = useClerk();
+  const [loading, setLoading] = useState(false);
 
   const handleSignOut = async () => {
     try {
+      setLoading(true);
       await signOut();
       // Redirect to your desired page
       router.push("/(auth)/sign-in");
     } catch (err) {
       console.error(JSON.stringify(err, null, 2));
+      setLoading(false);
     }
   };
 
@@ -31,6 +35,7 @@ export default function Page() {
               className="text-center"
               title="Sign Out"
               onPress={handleSignOut}
+              loader={loading}
             />
           </View>
         </View>
