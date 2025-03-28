@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 const Rides = () => {
   return (
     <View>
-      <Text>Rides</Text>
+      <Text>map</Text>
     </View>
   );
 };

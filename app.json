@@ -20,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alifarhad.professionals"
     },
     "web": {
       "bundler": "metro",
@@ -44,6 +45,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ecfb6c86-05aa-4d98-8577-43a3b709681a"
+      }
     }
   }
 }

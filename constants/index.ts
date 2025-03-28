@@ -12,6 +12,7 @@ import home from "@/assets/icons/home.png";
 import list from "@/assets/icons/list.png";
 import lock from "@/assets/icons/lock.png";
 import map from "@/assets/icons/map.png";
+import mapp from "@/assets/icons/mapp.png";
 import marker from "@/assets/icons/marker.png";
 import out from "@/assets/icons/out.png";
 import person from "@/assets/icons/person.png";
@@ -24,7 +25,6 @@ import star from "@/assets/icons/star.png";
 import target from "@/assets/icons/target.png";
 import to from "@/assets/icons/to.png";
 import check from "@/assets/images/check.png";
-import getStarted from "@/assets/images/get-started.png";
 import message from "@/assets/images/message.png";
 import noResult from "@/assets/images/no-result.png";
 import onboarding1 from "@/assets/images/onboarding1.png";
@@ -32,15 +32,12 @@ import onboarding2 from "@/assets/images/onboarding2.png";
 import onboarding3 from "@/assets/images/onboarding3.png";
 import onboarding4 from "@/assets/images/onboarding4.png";
 import signUp from "@/assets/images/sign-up.jpg";
-import signUpCar from "@/assets/images/signup-car.png";
 
 export const images = {
   onboarding1,
   onboarding2,
   onboarding3,
   onboarding4,
-  getStarted,
-  signUpCar,
   signUp,
   check,
   noResult,
@@ -73,6 +70,7 @@ export const icons = {
   star,
   target,
   to,
+  mapp,
 };
 
 export const onboarding = [
