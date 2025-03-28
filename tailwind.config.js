@@ -5,13 +5,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Jakarta: ["Jakarta", "sans-serif"],
-        JakartaBold: ["Jakarta-Bold", "sans-serif"],
-        JakartaExtraBold: ["Jakarta-ExtraBold", "sans-serif"],
-        JakartaExtraLight: ["Jakarta-ExtraLight", "sans-serif"],
-        JakartaLight: ["Jakarta-Light", "sans-serif"],
-        JakartaMedium: ["Jakarta-Medium", "sans-serif"],
-        JakartaSemiBold: ["Jakarta-SemiBold", "sans-serif"],
+        MontserratRegular: ["Montserrat", "sans-serif"],
+        MontserratBold: ["Montserrat-Bold", "sans-serif"],
+        MontserratExtraBold: ["Montserrat-ExtraBold", "sans-serif"],
+        MontserratExtraLight: ["Montserrat-ExtraLight", "sans-serif"],
+        MontserratLight: ["Montserrat-Light", "sans-serif"],
+        MontserratMedium: ["Montserrat-Medium", "sans-serif"],
+        MontserratSemiBold: ["Montserrat-SemiBold", "sans-serif"],
       },
       colors: {
         primary: {
